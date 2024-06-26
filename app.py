@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load('web_phising.model')
+model = joblib.load('web_phising3.model')
 
 # Feature extraction function
 def extract_features(url):
